@@ -1,0 +1,63 @@
+p {
+  font-family: arial;
+}
+
+.navigation{
+  background-color:rgb(180, 180, 189);
+  width:100%;
+  padding-top:1%;
+  padding-bottom:2%;
+  border-radius: 9px;
+  min-width:400px;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+
+.logo{
+ background-color:rgb(129, 127, 127);
+ width:30px;
+ padding-bottom: 40px;
+ padding-left: 20px;
+ margin-left: 20px;
+ margin-right: 700px;
+ margin-bottom:-12px;
+ margin-top:4px;
+ background-image: url("https://bulma.io/images/bulma-logo.png");
+}
+
+div{
+  margin:0px 10px 0px 0px;
+  display:inline-block;
+}
+
+.tabs{
+  background-color: rgb(159, 159, 170);
+  padding:2px 5px 2px 5px;
+  border-radius: 2px;
+  font-family: arial;
+}
+
+.tabs:hover{
+  background-color: rgb(37, 37, 37);
+  cursor: pointer;
+  color:white;
+}
+
+.searchbox{
+  font-family: arial;
+  margin-right:50px;
+  margin-left:20px;
+  margin-top: 20px;
+}
+
+.tabArea{
+  margin-left:20px;
+  margin-top: 20px;
+}
+
+.contentH{
+  margin:0px;
+}
+
+a{text-decoration:none;}
