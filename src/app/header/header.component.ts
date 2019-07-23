@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NotificationService } from '../notification.service';
+import { Spec } from '../spec';
 
 @Component({
   selector: 'app-header',
@@ -8,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   details=[{id:"home"},{id:"profile"},{id:"feedback"}]
   
-  constructor() { }
+  data: Spec[];
+  
+  constructor(private ns: NotificationService) { }
 
   ngOnInit() {
+    this.getData();
   }
+
+  getData(): void {
+  this.data = this.ns.getData();
+}
 
 }
