@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 
 import { RouterModule, Routes } from '@angular/router';//Imported for routing
 
@@ -27,7 +26,7 @@ import { FeedBackComponent } from './feed-back/feed-back.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule , RoutingModule], //Here the routing module is imported.
-  declarations: [ AppComponent, HeaderComponent, FooterComponent, HomeComponent, ProfileComponent, FeedBackComponent ],
+  declarations: [ AppComponent, HeaderComponent, HomeComponent, ProfileComponent, FeedBackComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
